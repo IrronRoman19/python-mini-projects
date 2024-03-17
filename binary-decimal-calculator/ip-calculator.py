@@ -42,5 +42,7 @@ def decimal_to_8bit_binary(dec_num):
 
 # Main process
 if __name__ == "__main__":
-    print(ip_decimal_to_binary("192.168.1.1"))
+    result = input("Enter the ip address: ")
+    print(ip_decimal_to_binary(result))
+    # print(ip_decimal_to_binary("192.168.1.1"))
     # print(decimal_to_8bit_binary(125))
